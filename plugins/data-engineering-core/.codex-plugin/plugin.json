@@ -1,0 +1,18 @@
+{
+  "name": "data-engineering-core",
+  "version": "1.0.0",
+  "description": "Core workflow skills for data specification, planning, quality, resiliency, observability, and operational safety.",
+  "author": {
+    "name": "Kushal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Data Engineering Core",
+    "shortDescription": "Apply a safe data-engineering delivery lifecycle.",
+    "longDescription": "A recommended core bundle from vaquarkhan/data-engineering-agent-skills covering specification, planning, quality, resiliency, observability, and incident recovery.",
+    "developerName": "Kushal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Use the Data Engineering Core workflows to choose and execute the safest next step."
+  }
+}

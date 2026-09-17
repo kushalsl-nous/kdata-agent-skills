@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "kdata-agent-skills",
+  "description": "Curated data engineering, Databricks, Data Vault, engineering quality, and data/AI application skills for Codex and Claude Code.",
+  "version": "1.2.0",
+  "owner": {
+    "name": "Kushal"
+  },
+  "plugins": [
+    {
+      "name": "databricks-engineering",
+      "displayName": "Databricks Engineering",
+      "source": "./plugins/databricks-engineering",
+      "description": "Twenty-five Databricks engineering skills spanning SQL, pipelines, jobs, apps, governance, serving, and AI/BI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kushal"
+      },
+      "license": "LicenseRef-Databricks",
+      "category": "development",
+      "tags": ["databricks", "data-engineering", "spark", "lakehouse"]
+    },
+    {
+      "name": "datavault4dbt",
+      "displayName": "Data Vault for dbt",
+      "source": "./plugins/datavault4dbt",
+      "description": "Five Scalefree datavault4dbt skills for setup, modelling, testing, troubleshooting, and rehashing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kushal"
+      },
+      "license": "Apache-2.0",
+      "category": "development",
+      "tags": ["data-vault", "dbt", "datavault4dbt", "data-modelling"]
+    },
+    {
+      "name": "engineering-quality",
+      "displayName": "Engineering Quality",
+      "source": "./plugins/engineering-quality",
+      "description": "Code review, security, testing, and reverse-engineering skills for production engineering work.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kushal"
+      },
+      "license": "MIT",
+      "category": "development",
+      "tags": ["code-review", "security", "testing", "specification"]
+    },
+    {
+      "name": "data-ai-apps",
+      "displayName": "Data and AI Applications",
+      "source": "./plugins/data-ai-apps",
+      "description": "FastAPI, React, RAG, prompt engineering, and Spark connector skills for data and AI applications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kushal"
+      },
+      "license": "LicenseRef-Mixed",
+      "category": "development",
+      "tags": ["fastapi", "react", "rag", "spark", "ai"]
+    },
+    {
+      "name": "athena-internal",
+      "displayName": "Athena Internal",
+      "source": "./plugins/athena-internal",
+      "description": "Internal workflow for the Nous Athena Databricks Azure DevOps repository.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kushal"
+      },
+      "license": "LicenseRef-Proprietary",
+      "category": "development",
+      "tags": ["athena", "azure-devops", "databricks", "internal"]
+    },
+    {
+      "name": "data-engineering-core",
+      "displayName": "Data Engineering Core",
+      "source": "./plugins/data-engineering-core",
+      "description": "Recommended core workflows from vaquarkhan/data-engineering-agent-skills for specification, planning, quality, resiliency, observability, and incident recovery.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kushal"
+      },
+      "license": "MIT",
+      "category": "development",
+      "tags": ["data-engineering", "data-quality", "resiliency", "observability", "planning"]
+    }
+  ]
+}

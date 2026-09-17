@@ -1,0 +1,18 @@
+{
+  "name": "data-ai-apps",
+  "version": "1.0.0",
+  "description": "FastAPI, React, RAG, prompt engineering, and Spark connector skills for data and AI applications.",
+  "author": {
+    "name": "Kushal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Data and AI Applications",
+    "shortDescription": "Build data and AI application layers.",
+    "longDescription": "Reusable workflows for FastAPI services, React interfaces, production RAG, prompt design, and custom Spark data sources.",
+    "developerName": "Kushal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Use the appropriate data and AI application skill for this task."
+  }
+}

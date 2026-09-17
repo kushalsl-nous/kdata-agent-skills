@@ -1,0 +1,80 @@
+{
+  "name": "kdata-agent-skills",
+  "interface": {
+    "displayName": "KData Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "databricks-engineering",
+      "source": {
+        "source": "local",
+        "path": "./plugins/databricks-engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "datavault4dbt",
+      "source": {
+        "source": "local",
+        "path": "./plugins/datavault4dbt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "engineering-quality",
+      "source": {
+        "source": "local",
+        "path": "./plugins/engineering-quality"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "data-ai-apps",
+      "source": {
+        "source": "local",
+        "path": "./plugins/data-ai-apps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "athena-internal",
+      "source": {
+        "source": "local",
+        "path": "./plugins/athena-internal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "data-engineering-core",
+      "source": {
+        "source": "local",
+        "path": "./plugins/data-engineering-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

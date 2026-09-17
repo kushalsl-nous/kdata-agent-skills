@@ -1,0 +1,18 @@
+{
+  "name": "athena-internal",
+  "version": "1.0.0",
+  "description": "Internal workflow for the Nous Athena Databricks Azure DevOps repository.",
+  "author": {
+    "name": "Kushal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Athena Internal",
+    "shortDescription": "Work safely with the internal Athena repository.",
+    "longDescription": "Internal workflow for inspecting, changing, branching, and preparing pull requests for the Athena Databricks Azure DevOps repository.",
+    "developerName": "Kushal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Use the Athena internal workflow for this repository task."
+  }
+}

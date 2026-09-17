@@ -1,0 +1,11 @@
+{
+  "name": "datavault4dbt",
+  "version": "1.0.0",
+  "description": "Five Scalefree datavault4dbt skills for setup, modelling, testing, troubleshooting, and rehashing.",
+  "author": {
+    "name": "Kushal"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["data-vault", "dbt", "datavault4dbt", "data-modelling"],
+  "skills": "./skills/"
+}

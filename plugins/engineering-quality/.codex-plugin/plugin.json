@@ -1,0 +1,18 @@
+{
+  "name": "engineering-quality",
+  "version": "1.0.0",
+  "description": "Code review, security, testing, and reverse-engineering skills for production engineering work.",
+  "author": {
+    "name": "Kushal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Engineering Quality",
+    "shortDescription": "Review, secure, test, and specify software.",
+    "longDescription": "Reusable workflows for structured code review, application security, security audits, test design, and specification mining.",
+    "developerName": "Kushal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Use the appropriate engineering quality skill to review or improve this work."
+  }
+}

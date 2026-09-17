@@ -1,0 +1,11 @@
+{
+  "name": "databricks-engineering",
+  "version": "1.0.0",
+  "description": "Twenty-five Databricks engineering skills spanning SQL, pipelines, jobs, apps, governance, serving, and AI/BI.",
+  "author": {
+    "name": "Kushal"
+  },
+  "license": "LicenseRef-Databricks",
+  "keywords": ["databricks", "data-engineering", "spark", "lakehouse"],
+  "skills": "./skills/"
+}

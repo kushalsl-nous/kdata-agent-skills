@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "data-ai-apps",
+  "version": "1.0.0",
+  "description": "FastAPI, React, RAG, prompt engineering, and Spark connector skills for data and AI applications.",
+  "author": {
+    "name": "Kushal"
+  },
+  "license": "LicenseRef-Mixed",
+  "keywords": ["fastapi", "react", "rag", "spark", "ai"]
+}

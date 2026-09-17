@@ -1,0 +1,4 @@
+interface:
+  display_name: "ADO Athena Databricks"
+  short_description: "Work with the Azure DevOps Athena Databricks repo."
+  default_prompt: "Use the ADO Athena Databricks skill to inspect or work on the Athena Databricks platform repository."

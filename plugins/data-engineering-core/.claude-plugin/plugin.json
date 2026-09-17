@@ -1,0 +1,11 @@
+{
+  "name": "data-engineering-core",
+  "version": "1.0.0",
+  "description": "Core workflow skills for data specification, planning, quality, resiliency, observability, and operational safety.",
+  "author": {
+    "name": "Kushal"
+  },
+  "license": "MIT",
+  "keywords": ["data-engineering", "data-quality", "resiliency", "observability", "planning"],
+  "skills": "./skills/"
+}

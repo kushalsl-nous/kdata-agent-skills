@@ -1,0 +1,18 @@
+{
+  "name": "datavault4dbt",
+  "version": "1.0.0",
+  "description": "Five Scalefree datavault4dbt skills for setup, modelling, testing, troubleshooting, and rehashing.",
+  "author": {
+    "name": "Kushal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Data Vault for dbt",
+    "shortDescription": "Model Data Vault 2.0 with datavault4dbt.",
+    "longDescription": "Scalefree workflows for configuring datavault4dbt and building, testing, troubleshooting, and rehashing Data Vault 2.0 entities.",
+    "developerName": "Kushal",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Use the appropriate datavault4dbt skill for this Data Vault task."
+  }
+}

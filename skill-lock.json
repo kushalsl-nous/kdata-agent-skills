@@ -1,0 +1,646 @@
+{
+    "schemaVersion":  1,
+    "packageVersion":  "1.2.0",
+    "snapshotDate":  "2026-09-17",
+    "hashFormat":  "sha256(sorted relative-path NUL file-sha256 records joined by LF)",
+    "skillCount":  49,
+    "skills":  [
+                   {
+                       "name":  "databricks-agent-bricks",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-agent-bricks",
+                       "treeSha256":  "196a956a6902a5323aada52168ff11499680b21d56ed19eb386ef94af82ca49b",
+                       "sourceTreeSha256":  "196a956a6902a5323aada52168ff11499680b21d56ed19eb386ef94af82ca49b",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-aibi-dashboards",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-aibi-dashboards",
+                       "treeSha256":  "1b9a1164e8979de9ec7a2d4a7de4043b919d00653cd54232e4a3607dd6607dd5",
+                       "sourceTreeSha256":  "1b9a1164e8979de9ec7a2d4a7de4043b919d00653cd54232e4a3607dd6607dd5",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-ai-functions",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-ai-functions",
+                       "treeSha256":  "fb311282b992c642a512f44ab1b4f9a9137bce00ed3c63fdb73a47a0742a7680",
+                       "sourceTreeSha256":  "fb311282b992c642a512f44ab1b4f9a9137bce00ed3c63fdb73a47a0742a7680",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-apps-python",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-apps-python",
+                       "treeSha256":  "cb96aff0db3091f89fd3c85426ceb5f492c548387df2f3383ac4336617894fbe",
+                       "sourceTreeSha256":  "cb96aff0db3091f89fd3c85426ceb5f492c548387df2f3383ac4336617894fbe",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-bundles",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-bundles",
+                       "treeSha256":  "6d38d252c2b569c28d11c56467f4ad2ce2b53814cc1ae4f2afba9b10da1eaf52",
+                       "sourceTreeSha256":  "6d38d252c2b569c28d11c56467f4ad2ce2b53814cc1ae4f2afba9b10da1eaf52",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-config",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-config",
+                       "treeSha256":  "16bb6957b317ae9cc9900ea4dfa93ed5d04b4c6ac6154cb1900d03246266d776",
+                       "sourceTreeSha256":  "16bb6957b317ae9cc9900ea4dfa93ed5d04b4c6ac6154cb1900d03246266d776",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-dbsql",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-dbsql",
+                       "treeSha256":  "072302d6042e495c611b921414fa7d9beefeb661ea484a7d4f5ffc1fe8907bee",
+                       "sourceTreeSha256":  "072302d6042e495c611b921414fa7d9beefeb661ea484a7d4f5ffc1fe8907bee",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-docs",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-docs",
+                       "treeSha256":  "60f85e953d86a8f188f6e8ac40b034733f18c1004aa96610c97538ff30e01600",
+                       "sourceTreeSha256":  "60f85e953d86a8f188f6e8ac40b034733f18c1004aa96610c97538ff30e01600",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-execution-compute",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-execution-compute",
+                       "treeSha256":  "4e01ac3d0f8237d8eae4133c6220616a2a7d1b84fe5cc55a23bb6706f5fdb136",
+                       "sourceTreeSha256":  "4e01ac3d0f8237d8eae4133c6220616a2a7d1b84fe5cc55a23bb6706f5fdb136",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-genie",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-genie",
+                       "treeSha256":  "3f56336226eec6d3d570e7a289e16bb8d081d5c0c40d776014167eb5ffec3539",
+                       "sourceTreeSha256":  "3f56336226eec6d3d570e7a289e16bb8d081d5c0c40d776014167eb5ffec3539",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-iceberg",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-iceberg",
+                       "treeSha256":  "908e45d8ff7f22a35f3ae606b93aef247c77412af9f15076edb385ebb851cf19",
+                       "sourceTreeSha256":  "908e45d8ff7f22a35f3ae606b93aef247c77412af9f15076edb385ebb851cf19",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-jobs",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-jobs",
+                       "treeSha256":  "86a34e67dcba3ae4dd527b6da8548105c15b19f29047aa00ec1dc50bd9d40ea3",
+                       "sourceTreeSha256":  "86a34e67dcba3ae4dd527b6da8548105c15b19f29047aa00ec1dc50bd9d40ea3",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-lakebase-autoscale",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-lakebase-autoscale",
+                       "treeSha256":  "f310684bba9c5fc355eb521c31af2c6e008988395ea923dbcf5abfe17e08b103",
+                       "sourceTreeSha256":  "f310684bba9c5fc355eb521c31af2c6e008988395ea923dbcf5abfe17e08b103",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-lakebase-provisioned",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-lakebase-provisioned",
+                       "treeSha256":  "bd8a4ede13b91ac949e79bb2c34b0e39e7a4f533b169605173569dac513701f3",
+                       "sourceTreeSha256":  "bd8a4ede13b91ac949e79bb2c34b0e39e7a4f533b169605173569dac513701f3",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-metric-views",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-metric-views",
+                       "treeSha256":  "48225a118ad21a2fbdf1715727ff589426f8077466171ce23b75b4133ae9087d",
+                       "sourceTreeSha256":  "48225a118ad21a2fbdf1715727ff589426f8077466171ce23b75b4133ae9087d",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-mlflow-evaluation",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-mlflow-evaluation",
+                       "treeSha256":  "bf7f7c4a99c2f9ca1a27ddb7f5c8ef286185c88955361fa2f21715e027272598",
+                       "sourceTreeSha256":  "bf7f7c4a99c2f9ca1a27ddb7f5c8ef286185c88955361fa2f21715e027272598",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-model-serving",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-model-serving",
+                       "treeSha256":  "4f60c4c51e521a403e75dbafd60e1d7db256ae7bdc52bfec70fdc9d8ece0be53",
+                       "sourceTreeSha256":  "4f60c4c51e521a403e75dbafd60e1d7db256ae7bdc52bfec70fdc9d8ece0be53",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-python-sdk",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-python-sdk",
+                       "treeSha256":  "b95b949a12efec9c23f083268da28c1d6dc3c13c10a82f6072b431f4bbbfa714",
+                       "sourceTreeSha256":  "b95b949a12efec9c23f083268da28c1d6dc3c13c10a82f6072b431f4bbbfa714",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-spark-declarative-pipelines",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-spark-declarative-pipelines",
+                       "treeSha256":  "a3ff18335c914df82c387b63313d035e18314e9f9e74fe5f5b319e38143f4a45",
+                       "sourceTreeSha256":  "a3ff18335c914df82c387b63313d035e18314e9f9e74fe5f5b319e38143f4a45",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-spark-structured-streaming",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-spark-structured-streaming",
+                       "treeSha256":  "68db53d3de5ee4adfbbb5fde5eef4fd347cfda8fb04281d7a12d324b20dde42d",
+                       "sourceTreeSha256":  "68db53d3de5ee4adfbbb5fde5eef4fd347cfda8fb04281d7a12d324b20dde42d",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-synthetic-data-gen",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-synthetic-data-gen",
+                       "treeSha256":  "7692319776ecc28fbc2440df6d61857b7bc7b7b6022537835b74c0f67dc05693",
+                       "sourceTreeSha256":  "7692319776ecc28fbc2440df6d61857b7bc7b7b6022537835b74c0f67dc05693",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-unity-catalog",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-unity-catalog",
+                       "treeSha256":  "bb4c87e6fce795571dc48bca86b8a7684d5248a2fab28eba5c44e2bcce0759d7",
+                       "sourceTreeSha256":  "bb4c87e6fce795571dc48bca86b8a7684d5248a2fab28eba5c44e2bcce0759d7",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-unstructured-pdf-generation",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-unstructured-pdf-generation",
+                       "treeSha256":  "1507d6abeacba8295cab61336053561fd50cff12add4318ac508d387f892c19b",
+                       "sourceTreeSha256":  "1507d6abeacba8295cab61336053561fd50cff12add4318ac508d387f892c19b",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-vector-search",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-vector-search",
+                       "treeSha256":  "40cd99bf6f096ba97cfcdc831dfbaaade68dc12737a42bb06003b3839717b886",
+                       "sourceTreeSha256":  "40cd99bf6f096ba97cfcdc831dfbaaade68dc12737a42bb06003b3839717b886",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "databricks-zerobus-ingest",
+                       "plugin":  "databricks-engineering",
+                       "packagedPath":  "plugins/databricks-engineering/skills/databricks-zerobus-ingest",
+                       "treeSha256":  "a78ee8aba62da80e5384fc6e56ded207e24d604c640cfe2d6f5b0eef39fcdbe9",
+                       "sourceTreeSha256":  "a78ee8aba62da80e5384fc6e56ded207e24d604c640cfe2d6f5b0eef39fcdbe9",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "configuring-datavault4dbt",
+                       "plugin":  "datavault4dbt",
+                       "packagedPath":  "plugins/datavault4dbt/skills/configuring-datavault4dbt",
+                       "treeSha256":  "3ce3f8b6cea07174b4148c595d33b071a5876d6f51b69ec6e9423b9d793048d2",
+                       "sourceTreeSha256":  "3ce3f8b6cea07174b4148c595d33b071a5876d6f51b69ec6e9423b9d793048d2",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/ScalefreeCOM/datavault4dbt-agent-skills",
+                                      "reference":  "e72ce0f2a2342ff985236f1ca05400bdbb6786ca",
+                                      "license":  "Apache-2.0"
+                                  }
+                   },
+                   {
+                       "name":  "rehashing-datavault4dbt-entities",
+                       "plugin":  "datavault4dbt",
+                       "packagedPath":  "plugins/datavault4dbt/skills/rehashing-datavault4dbt-entities",
+                       "treeSha256":  "3118c8a2a6be25dbed69146b191e4ffb7bc4f2b786691b4dccf25ac15198da8b",
+                       "sourceTreeSha256":  "3118c8a2a6be25dbed69146b191e4ffb7bc4f2b786691b4dccf25ac15198da8b",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/ScalefreeCOM/datavault4dbt-agent-skills",
+                                      "reference":  "e72ce0f2a2342ff985236f1ca05400bdbb6786ca",
+                                      "license":  "Apache-2.0"
+                                  }
+                   },
+                   {
+                       "name":  "testing-a-datavault4dbt-project",
+                       "plugin":  "datavault4dbt",
+                       "packagedPath":  "plugins/datavault4dbt/skills/testing-a-datavault4dbt-project",
+                       "treeSha256":  "896fab0fadaa24afa688646e78ed651f98f3fb973d6f75d9a2f641429e5f89c2",
+                       "sourceTreeSha256":  "896fab0fadaa24afa688646e78ed651f98f3fb973d6f75d9a2f641429e5f89c2",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/ScalefreeCOM/datavault4dbt-agent-skills",
+                                      "reference":  "e72ce0f2a2342ff985236f1ca05400bdbb6786ca",
+                                      "license":  "Apache-2.0"
+                                  }
+                   },
+                   {
+                       "name":  "troubleshooting-datavault4dbt",
+                       "plugin":  "datavault4dbt",
+                       "packagedPath":  "plugins/datavault4dbt/skills/troubleshooting-datavault4dbt",
+                       "treeSha256":  "91fc0c24bfbdfba096eccef3ff51bb0c6df7563efcbefbd4077c9d6d7b4463f2",
+                       "sourceTreeSha256":  "91fc0c24bfbdfba096eccef3ff51bb0c6df7563efcbefbd4077c9d6d7b4463f2",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/ScalefreeCOM/datavault4dbt-agent-skills",
+                                      "reference":  "e72ce0f2a2342ff985236f1ca05400bdbb6786ca",
+                                      "license":  "Apache-2.0"
+                                  }
+                   },
+                   {
+                       "name":  "using-datavault4dbt",
+                       "plugin":  "datavault4dbt",
+                       "packagedPath":  "plugins/datavault4dbt/skills/using-datavault4dbt",
+                       "treeSha256":  "0cc655d256a6b4ae08b74f9d256e01bcc4f2aaa7be8502ce31f5d01f5c157ba0",
+                       "sourceTreeSha256":  "0cc655d256a6b4ae08b74f9d256e01bcc4f2aaa7be8502ce31f5d01f5c157ba0",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/ScalefreeCOM/datavault4dbt-agent-skills",
+                                      "reference":  "e72ce0f2a2342ff985236f1ca05400bdbb6786ca",
+                                      "license":  "Apache-2.0"
+                                  }
+                   },
+                   {
+                       "name":  "code-reviewer",
+                       "plugin":  "engineering-quality",
+                       "packagedPath":  "plugins/engineering-quality/skills/code-reviewer",
+                       "treeSha256":  "902e3c717cd35672a5a3de59c7117c382142d3547fe1c5a1c73085bd0b841503",
+                       "sourceTreeSha256":  "902e3c717cd35672a5a3de59c7117c382142d3547fe1c5a1c73085bd0b841503",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "secure-code-guardian",
+                       "plugin":  "engineering-quality",
+                       "packagedPath":  "plugins/engineering-quality/skills/secure-code-guardian",
+                       "treeSha256":  "dfc2003ef9ccabb0361f5c083435c92fbb68a24b18f9929eae7d0919f92ab06a",
+                       "sourceTreeSha256":  "dfc2003ef9ccabb0361f5c083435c92fbb68a24b18f9929eae7d0919f92ab06a",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "security-reviewer",
+                       "plugin":  "engineering-quality",
+                       "packagedPath":  "plugins/engineering-quality/skills/security-reviewer",
+                       "treeSha256":  "810087981dd48b33bae2b4198a2bdc9bdd0fba22edf5fa04ab3ad808ca8a2a27",
+                       "sourceTreeSha256":  "810087981dd48b33bae2b4198a2bdc9bdd0fba22edf5fa04ab3ad808ca8a2a27",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "spec-miner",
+                       "plugin":  "engineering-quality",
+                       "packagedPath":  "plugins/engineering-quality/skills/spec-miner",
+                       "treeSha256":  "8bd08874ebdb3b4d5b0e86d970a195ea3f5bfc902d0f7814a9f2171e1055afe5",
+                       "sourceTreeSha256":  "8bd08874ebdb3b4d5b0e86d970a195ea3f5bfc902d0f7814a9f2171e1055afe5",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "test-master",
+                       "plugin":  "engineering-quality",
+                       "packagedPath":  "plugins/engineering-quality/skills/test-master",
+                       "treeSha256":  "fbe8566c280a6403cc4aa436fb22e6ad1baf7f152339d80dec77955ca2428b33",
+                       "sourceTreeSha256":  "fbe8566c280a6403cc4aa436fb22e6ad1baf7f152339d80dec77955ca2428b33",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "fastapi-expert",
+                       "plugin":  "data-ai-apps",
+                       "packagedPath":  "plugins/data-ai-apps/skills/fastapi-expert",
+                       "treeSha256":  "da67cfe2e01256298ee0b9bb4376f5206f82591fe0f0e186c15ff93e2191a475",
+                       "sourceTreeSha256":  "da67cfe2e01256298ee0b9bb4376f5206f82591fe0f0e186c15ff93e2191a475",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "prompt-engineer",
+                       "plugin":  "data-ai-apps",
+                       "packagedPath":  "plugins/data-ai-apps/skills/prompt-engineer",
+                       "treeSha256":  "567bf148a38748903a5034a9138107a22449ff630c225cf61fd442f31ac1ac0e",
+                       "sourceTreeSha256":  "567bf148a38748903a5034a9138107a22449ff630c225cf61fd442f31ac1ac0e",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "rag-architect",
+                       "plugin":  "data-ai-apps",
+                       "packagedPath":  "plugins/data-ai-apps/skills/rag-architect",
+                       "treeSha256":  "8cedace76b7a4e225c84dace023f14d4b6e9be41315ebe0e483fcd02375e48cc",
+                       "sourceTreeSha256":  "8cedace76b7a4e225c84dace023f14d4b6e9be41315ebe0e483fcd02375e48cc",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "react-expert",
+                       "plugin":  "data-ai-apps",
+                       "packagedPath":  "plugins/data-ai-apps/skills/react-expert",
+                       "treeSha256":  "84e936bc9e3b74831a75966426ae67856abb239e28c84ff99df3e07d415357f2",
+                       "sourceTreeSha256":  "84e936bc9e3b74831a75966426ae67856abb239e28c84ff99df3e07d415357f2",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/Jeffallan/claude-skills",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "spark-python-data-source",
+                       "plugin":  "data-ai-apps",
+                       "packagedPath":  "plugins/data-ai-apps/skills/spark-python-data-source",
+                       "treeSha256":  "0e3831344a1fe451a93e94c0e25524a4be52d6281ceb4c99117598b6e886f264",
+                       "sourceTreeSha256":  "0e3831344a1fe451a93e94c0e25524a4be52d6281ceb4c99117598b6e886f264",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/databricks-solutions/ai-dev-kit",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Databricks"
+                                  }
+                   },
+                   {
+                       "name":  "ado-athena-databricks",
+                       "plugin":  "athena-internal",
+                       "packagedPath":  "plugins/athena-internal/skills/ado-athena-databricks",
+                       "treeSha256":  "82ccbf21d28b18b3f51ba1e4579ded6d62e9df10359029670a4a510c20b6ab74",
+                       "sourceTreeSha256":  "a393e4dfb7078f6ce4f39d3101a44fea0bb62ccb88a24a476c83202a6833f0d2",
+                       "packagedAdaptation":  true,
+                       "source":  {
+                                      "repository":  "internal-local",
+                                      "reference":  "installed-local-snapshot-2026-09-17",
+                                      "license":  "LicenseRef-Proprietary"
+                                  }
+                   },
+                   {
+                       "name":  "using-data-engineering-agent-skills",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/using-data-engineering-agent-skills",
+                       "treeSha256":  "8bff2810a0de9d505c130cb5fc2545165befeff0d80cc11ee0e9e94ad7432fd2",
+                       "sourceTreeSha256":  "8bff2810a0de9d505c130cb5fc2545165befeff0d80cc11ee0e9e94ad7432fd2",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "using-data-agent-skills",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/using-data-agent-skills",
+                       "treeSha256":  "9341159c7210191d8d85f5abc473e2ff5a6a18816cb42fa731607e00517d4f5e",
+                       "sourceTreeSha256":  "9341159c7210191d8d85f5abc473e2ff5a6a18816cb42fa731607e00517d4f5e",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "data-specification",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/data-specification",
+                       "treeSha256":  "de690fe321e002c9a8a38051cd95ea269f7803b27bb3a4b7f7d9f527a1204c75",
+                       "sourceTreeSha256":  "de690fe321e002c9a8a38051cd95ea269f7803b27bb3a4b7f7d9f527a1204c75",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "pipeline-planning-and-task-breakdown",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/pipeline-planning-and-task-breakdown",
+                       "treeSha256":  "6df35321e712cc2cdd33c4315a37f5eec8a725ad98cef117c0cf7c7ed751b202",
+                       "sourceTreeSha256":  "6df35321e712cc2cdd33c4315a37f5eec8a725ad98cef117c0cf7c7ed751b202",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "data-quality-and-contract-testing",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/data-quality-and-contract-testing",
+                       "treeSha256":  "f6017956c4569c807efb2a9fb11e106e72f989f4ebc324df3062b7fe53b2444f",
+                       "sourceTreeSha256":  "f6017956c4569c807efb2a9fb11e106e72f989f4ebc324df3062b7fe53b2444f",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "data-resiliency-testing-and-failure-injection",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/data-resiliency-testing-and-failure-injection",
+                       "treeSha256":  "07b57353a4525965c1c09f046e3653ceae146ce3514fe94e726d791806cc112c",
+                       "sourceTreeSha256":  "07b57353a4525965c1c09f046e3653ceae146ce3514fe94e726d791806cc112c",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "data-observability-and-sla-management",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/data-observability-and-sla-management",
+                       "treeSha256":  "02d040eda84bcf2455841f04b4fec58166fce1e57c2d9fadbf5b9292a7db2bbb",
+                       "sourceTreeSha256":  "02d040eda84bcf2455841f04b4fec58166fce1e57c2d9fadbf5b9292a7db2bbb",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   },
+                   {
+                       "name":  "incident-triage-and-pipeline-recovery",
+                       "plugin":  "data-engineering-core",
+                       "packagedPath":  "plugins/data-engineering-core/skills/incident-triage-and-pipeline-recovery",
+                       "treeSha256":  "61ddaceff442c78b0fd7b36d466aca1439304127b83a6a2aa813acf44ecb417b",
+                       "sourceTreeSha256":  "61ddaceff442c78b0fd7b36d466aca1439304127b83a6a2aa813acf44ecb417b",
+                       "packagedAdaptation":  false,
+                       "source":  {
+                                      "repository":  "https://github.com/vaquarkhan/data-engineering-agent-skills",
+                                      "reference":  "421ef57e8d42c464b29339193c18dd5bd2946bc2",
+                                      "license":  "MIT"
+                                  }
+                   }
+               ]
+}

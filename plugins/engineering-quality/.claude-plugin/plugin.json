@@ -1,0 +1,11 @@
+{
+  "name": "engineering-quality",
+  "version": "1.0.0",
+  "description": "Code review, security, testing, and reverse-engineering skills for production engineering work.",
+  "author": {
+    "name": "Kushal"
+  },
+  "license": "MIT",
+  "keywords": ["code-review", "security", "testing", "specification"],
+  "skills": "./skills/"
+}

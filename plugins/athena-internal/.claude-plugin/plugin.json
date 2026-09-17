@@ -1,0 +1,11 @@
+{
+  "name": "athena-internal",
+  "version": "1.0.0",
+  "description": "Internal workflow for the Nous Athena Databricks Azure DevOps repository.",
+  "author": {
+    "name": "Kushal"
+  },
+  "license": "LicenseRef-Proprietary",
+  "keywords": ["athena", "azure-devops", "databricks", "internal"],
+  "skills": "./skills/"
+}
