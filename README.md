@@ -4,6 +4,8 @@
 [![Plugins](https://img.shields.io/badge/plugins-6-7c3aed)](#plugin-catalog)
 [![Skill directories](https://img.shields.io/badge/skill_directories-49-059669)](#complete-skill-inventory)
 [![Clients](https://img.shields.io/badge/clients-Codex%20%7C%20Claude%20Code-111827)](#install-the-marketplace)
+[![License](https://img.shields.io/badge/license-Mixed-f59e0b)](LICENSE.md)
+[![Security policy](https://img.shields.io/badge/security-policy-0f766e)](SECURITY.md)
 
 Curated, installable data-engineering workflows for Codex and Claude Code.
 
@@ -322,6 +324,7 @@ kdata-agent-skills/
 ├── skill-lock.json                       # Pinned source and packaged-content hashes
 ├── THIRD_PARTY_NOTICES.md                # Source attribution
 ├── LICENSE.md                            # Repository licensing notes
+├── SECURITY.md                           # Vulnerability reporting policy
 └── CHANGELOG.md                          # Bundle release history
 ```
 
@@ -491,6 +494,32 @@ The plugins package instructions and supporting resources, not credentials or cl
 
 A generated artifact or passing local validator does not prove authenticated connectivity, successful deployment, production readiness, or business approval.
 
+## Security
+
+Do not disclose vulnerabilities, credentials, internal repository details, or exploit instructions in a public issue or pull request.
+
+Use the reporting process in [SECURITY.md](SECURITY.md). It covers:
+
+- marketplace and plugin manifest integrity;
+- bundled scripts and unsafe command execution;
+- credential, token, and secret handling;
+- source provenance and packaged-content tampering;
+- workflow instructions that could encourage unsafe production changes;
+- responsible disclosure and authorized testing boundaries.
+
+The security policy becomes visible through GitHub's **Security and quality → Security policy** view after it is committed to the default branch.
+
+## License
+
+This repository is a **mixed-license collection**. It cannot accurately be labelled as repository-wide MIT because it includes:
+
+- MIT-licensed Vaquarkhan and Jeff Allan content;
+- Apache-2.0 Scalefree content;
+- Databricks-origin content governed by `LicenseRef-Databricks` terms;
+- the proprietary `athena-internal` workflow.
+
+See [LICENSE.md](LICENSE.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and each plugin's `LICENSES/` directory before redistribution or modification. No repository-level statement overrides the original license or restriction attached to a bundled component.
+
 ## Share with coworkers
 
 1. Grant the coworker read access to `kushalsl-nous/kdata-agent-skills`.
@@ -532,7 +561,7 @@ codex plugin marketplace upgrade kdata-agent-skills
 claude plugin marketplace update kdata-agent-skills
 ```
 
-## Provenance and licensing
+## Provenance
 
 KData Agent Skills is an aggregation and distribution repository. It does not claim authorship over bundled third-party skills.
 
@@ -552,4 +581,6 @@ See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), each plugin's `LICENSES/` 
 - [OpenAI: Build skills](https://learn.chatgpt.com/docs/build-skills)
 - [Claude Code: Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
 - [Claude Code: Plugins reference](https://code.claude.com/docs/en/plugins-reference)
+- [Security policy](SECURITY.md)
+- [License notice](LICENSE.md)
 - [Bundle release history](CHANGELOG.md)
